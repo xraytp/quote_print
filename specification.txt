@@ -1,0 +1,24 @@
+Preliminary Specification
+11 of Dececmber, 2020
+
+Author: xraytp
+
+The purpose of the program Quote Print is to print to stdout a quote appended by
+its respective author from an external file of quotes. The quote is chosen
+randomly.
+
+The program imports the file of quotes from a filepath given by the commandline
+at execution. The quotes are paired with their author into a linked list. The 
+quote is chosen at random where the seed of randomness is given by the current 
+time.
+
+The format of the quote file is an ASCII file where the quote ends with a
+newline, followed by the author, followed by a newline.
+
+After the quote has been randomly selected it is printed with a colour to the
+standard output along with its author in a different colour. The quote and
+author must not extend past 80 characters per line. Newlines will substitute
+the last whitespace before a line extends past 80 characters. 
+
+After the quote is printed the purpose of the program is fulfilled and the 
+program ends.
