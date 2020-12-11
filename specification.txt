@@ -1,5 +1,5 @@
-Preliminary Specification
-11 of Dececmber, 2020
+Specification
+11th of Dececmber, 2020
 
 Author: xraytp
 
@@ -22,3 +22,17 @@ the last whitespace before a line extends past 80 characters.
 
 After the quote is printed the purpose of the program is fulfilled and the 
 program ends.
+
+
+Program was completed on the 11th of December, 2020 according to above.
+Version is dubbed "1.0".
+
+
+Version 1.1 Specification
+11th of December, 2020
+
+Author: xraytp
+
+When program is executed multiple times within the same second the exact same
+quote is selected. To remedy this randomness will be instead seeded from
+/dev/urandom rather than the time.
